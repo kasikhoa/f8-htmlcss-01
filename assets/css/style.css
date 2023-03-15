@@ -62,9 +62,9 @@ a {
 /* ============ Header ============ */
 .fixed-header {
     background-color: #e6f0ff;
-    padding-top: 26px;
+    padding: 26px 0;
     position: sticky;
-    top: -26px;
+    top: 0px;
     z-index: 1;
 }
 
@@ -74,13 +74,13 @@ a {
     flex-direction: column;
     justify-content: center;
     background-color: #e6f0ff;
-    height: calc(100vh - 90px);
+    height: calc(100vh - 92px);
 }
 
 .navbar {
     display: flex;
     align-items: center;
-    padding: 12px 0;
+    /* padding: 12px 0; */
 }
 
 .navbar ul {
@@ -157,7 +157,7 @@ a {
 /* ========= Clients ========== */
 .clients {
     margin-top: 79px;
-    padding: 43px 0 64px;
+    padding: 43px 0;
 }
 
 .clients .row {
@@ -195,8 +195,8 @@ a {
 /* =========== Guides ========== */
 
 .guides {
-    margin-top: 40px;
-    padding: 93px 0 79px;
+    /* margin-top: 40px; */
+    padding: 110px 0 79px;
 }
 
 .guides .sub-title {
